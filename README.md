@@ -1,5 +1,15 @@
 # Arduino Core for SAMD21 CPU
 
+**This fork adds [PR 713](https://github.com/arduino/ArduinoCore-samd/pull/713) to the current
+[platformio/framework-arduino-samd](https://registry.platformio.org/tools/platformio/framework-arduino-samd)
+(version 1.8.13).**
+
+This version of the framework can be used by adding the following to `platformio.ini`:
+```
+platform_packages =
+	framework-arduino-samd @ https://github.com/skulblakka/framework-arduino-samd.git#master
+```
+
 This repository contains the source code and configuration files of the Arduino Core
 for Atmel's SAMD21 processor (used on the Arduino/Genuino Zero, MKR1000 and MKRZero boards).
 
@@ -27,7 +37,7 @@ to avoid duplicates.
 
 ## Contributions
 
-Contributions are always welcome. The preferred way to receive code contribution is by submitting a 
+Contributions are always welcome. The preferred way to receive code contribution is by submitting a
 Pull Request on github.
 
 ## Hourly builds
